@@ -18,5 +18,5 @@ export default function Message({name,pic,send,sendData,id}) {
         </div>
     </div>
   )
-  
+
 }

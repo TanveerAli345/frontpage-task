@@ -248,7 +248,7 @@ body {
   display: block;
   border-radius: 5px;
   align-self: flex-start;
-  margin: 5px 0;
+  margin: 2px 0;
 }
 
 .receive{
@@ -258,7 +258,7 @@ body {
   padding: 10px;
   display: block;
   border-radius: 5px;
-  margin: 5px 0;
+  margin: 2px 0;
   align-self: flex-end;
 }
   /* FOOTER */

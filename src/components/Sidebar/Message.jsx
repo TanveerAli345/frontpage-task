@@ -5,6 +5,7 @@ export default function Message({name,pic,send,sendData,id}) {
 
   return (
     <div className="message" onClick={()=>sendData(id)}>
+
         <img className="message--profile-pic" src={pic} alt="" />
         <div className="message--details">
             <div>
@@ -16,6 +17,7 @@ export default function Message({name,pic,send,sendData,id}) {
                 </div>
             </div>
         </div>
+        
     </div>
   )
 

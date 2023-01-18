@@ -36,6 +36,7 @@ export default function ChatContainer({id}) {
       <div className="chatcontainer" id="chats">
         {chatElements}
       </div>
+      
       <Footer id={id} addMsg={() => addMsg(id)} />
     </>
   )

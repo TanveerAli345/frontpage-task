@@ -7,7 +7,6 @@ function ChatArea({id}) {
         <div className="chatarea">
             <Header id={id}/>
             <ChatContainer id={id}/>
-            {/* <Footer  */}
         </div>
     )
 }

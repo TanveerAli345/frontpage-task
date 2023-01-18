@@ -2,6 +2,7 @@ import React from 'react'
 import msgs from "../../data/messages"
 
 export default function Message({name,pic,send,sendData,id}) {
+
   return (
     <div className="message" onClick={()=>sendData(id)}>
         <img className="message--profile-pic" src={pic} alt="" />
@@ -17,4 +18,5 @@ export default function Message({name,pic,send,sendData,id}) {
         </div>
     </div>
   )
+  
 }

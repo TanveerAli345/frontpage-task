@@ -18,16 +18,15 @@ export default function ChatContainer({id}) {
     if (msg[0] === 's') {
       return (
         <div className="send">
-        {msg.substring(2)}
-      </div>
-      )
-    } else {
-      return (
-      <div className="receive">
-        {msg.substring(2)}
-      </div>
-      )
-    }
+          {msg.substring(2)}
+        </div>
+      ) } else {
+        return (
+          <div className="receive">
+            {msg.substring(2)}
+          </div>
+        )
+      }
   })
 
 

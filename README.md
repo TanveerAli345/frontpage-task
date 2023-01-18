@@ -25,10 +25,6 @@ To build the application for production, run the following command:
 
 This will create a production-ready build in the `dist` directory.
 
-## Additional Features
-
-This project also includes [Vite plugins](https://github.com/vitejs/vite#plugins) like TypeScript and CSS pre-processors support.
-
 ## Additional resources
 
 - [Vite.js documentation](https://github.com/vitejs/vite)

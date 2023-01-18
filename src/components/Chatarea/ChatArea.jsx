@@ -1,8 +1,6 @@
 import React from "react"
 import ChatContainer from "./ChatContainer"
-import Footer from "./Footer"
 import Header from "./Header"
-
 
 function ChatArea({id}) {
     return (

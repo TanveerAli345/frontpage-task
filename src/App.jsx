@@ -11,10 +11,8 @@ function App() {
   // console.log(id)
   return (
     <div className="app">
-
       <Sidebar setId={getID}/>
       <ChatArea id={sendId}/>
-      
     </div>
   )
 }

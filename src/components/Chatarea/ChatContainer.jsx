@@ -12,6 +12,8 @@ export default function ChatContainer({id}) {
   function addMsg() {
     let newchat = document.getElementById("new-chat-input").value
     newchat && setAllMsgs(prevMsgs => [...prevMsgs, "r:" + newchat])
+    document.getElementById("new-chat-input").value = ""
+    document.getElementsByClassName("chatcontainer")[0].scrollTop = document.getElementsByClassName("chatcontainer")[0].scrollHeight
   }
 
   const chatElements = allMsgs.map(msg => {

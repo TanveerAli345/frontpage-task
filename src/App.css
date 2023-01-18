@@ -13,6 +13,18 @@ body {
   width: 100vw;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  background-color: #005c4b;
+  height: 100%;
+  width: 65%;
+  z-index: 3;
+  background-image: url("https://imagizer.imageshack.com/img924/2070/mkfA4X.png");
+  background-size: cover;
+}
+
 /* SIDEBAR */
 
   /* SIDEBAR--HEADER */

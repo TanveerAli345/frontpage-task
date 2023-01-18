@@ -10,7 +10,7 @@ export default function Header({id}) {
       <div className="chatarea--header--profile">
         <img className="user-img" src={contact ? contact.profilePic : ""} alt="Profile pic" />
         <div>
-          {contact ? contact.name : "Click on a chat"}
+          {contact ? contact.name : <div className='overlay'></div>}
         </div>
       </div>
 

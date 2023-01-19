@@ -1,4 +1,4 @@
-# frontpage-task# frontpage-task
+# frontpage-task
 
 This is a React project that was initialized with Vite.js.
 
